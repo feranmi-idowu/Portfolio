@@ -1,7 +1,3 @@
-Sure, here's a README file for your HTML portfolio website:
-
----
-
 # Portfolio Website README
 
 This repository contains the source code for a portfolio website created using HTML, CSS, and JavaScript. The website showcases information about the developer, their skills, and some of the projects they've worked on.
