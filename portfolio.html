@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+        h2 {
+            color: #333;
+        }
+        .round-image {
+            margin: 10px auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 10%;
+            object-fit: cover;
+        }
+        li img {
+            margin: auto;
+            width: 15px;
+            height: 15px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to my portfolio website. Here you can learn more about me and see some of my work.</p>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <img src="./image/2.jpg" alt="my profile image" class="round-image">
+        <p>Hi, I'm Idowu Oluwaferanmi, a passionate developer with experience in various technologies like: <ul>
+            <li><img src="https://e7.pngegg.com/pngimages/780/934/png-clipart-html-logo-html5-logo-icons-logos-emojis-tech-companies-thumbnail.png" alt="html"> HTML</li>
+            <li><img src="https://1000logos.net/wp-content/uploads/2020/09/CSS-Logo-768x480.png" alt="css"> CSS</li>
+            <li><img src="https://w7.pngwing.com/pngs/640/199/png-transparent-javascript-logo-html-javascript-logo-angle-text-rectangle-thumbnail.png" alt="js"> JavaScript</li>
+            <li><img src="https://w7.pngwing.com/pngs/452/495/png-transparent-react-javascript-angularjs-ionic-github-text-logo-symmetry-thumbnail.png" alt="react"> React.js</li>
+        </ul> 
+        I enjoy creating innovative solutions and constantly learning new things.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I've worked on:</p>
+        <ul>
+            <li><a href="https://api-github-gold.vercel.app/">My GitHub repository</a>: A web application that shows my GitHub repository using GitHub API.</li>
+            <li><a href="https://budgety-alpha.vercel.app/">Budgety</a>: A web application that helps users track their Monthly income and expenses effectively.</li>
+            <li><a href="https://pigggame.vercel.app/">Pig Game</a>: The Pig game is a simple dice game where players take turns to roll a die as many times as they wish, accumulating a score. However, if they roll a 1, they lose all points accumulated in that turn, and it becomes the next player's turn. The first player to reach a predetermined score (usually 100) wins the game.</li>
+        </ul>
+    </section>
+</body>
+</html>
